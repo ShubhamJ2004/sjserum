@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SJ Serum.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>SJ Serum</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+                <li><a href="Login.html">SignUp/Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <video width="1549px"loop autoplay muted  id="vid">
+        <source type="video/mp4" src="Data/COVID19.mp4">
+    </video>
+    <section>
+        <div class="div1">Symptoms</div>
+        <div class="div2"><iframe width="622" height="352" src="https://www.youtube.com/embed/rAj38E7vrS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <p>This short animated video from Stanford Medicine's Maya Adam illustrates how the novel coronavirus — the virus that causes the respiratory disease COVID-19 — is transmitted among people and how transmission can be prevented.</p>
+        <div class="div3"><img src="Data/GIF-Animated-Corona.gif" alt="" width="650px" height="400px"></div>
+        <div class="div4">
+            <p>Official case counts refer to the number of people who have been tested for COVID-19 and whose test has been confirmed positive according to official protocols.[57][58] Many countries, early on, had official policies to not test those with only mild symptoms.[59][60] An analysis of the early phase of the outbreak up to 23 January estimated 86 per cent of COVID-19 infections had not been detected, and that these undocumented infections were the source for 79 per cent of documented cases.</p>
+        </div>      
+        <div class="div5">
+            <img src="Data/covid-washing-hands.png" width="650" height="350" alt="">
+        </div>
+        <div class="div6">
+            <p>
+                Frequent and proper hand hygiene is one of the most important measures that can be used to prevent infection with the COVID-19 virus. WASH practitioners should work to enable more frequent and regular hand hygiene by improving facilities and using proven behavior-change techniques.</p>
+        </div>
+    </section>
+    <fieldset>
+        <legend><div class="P_details">Fill your personal details</div></legend>
+        <form action="">
+            <h2>First Name:<input type="text" name="first_name"></h2><br>
+            <h2>Last Name:<input type="text" name = "last_name"></h2><br>
+            <h2>Email:<input type="email" name = "email" required></h2><br>
+            <h2>Password<input type="password" name="password" min="5"></h2><br>
+            <h2>Birth_Date:<input type="date" name = "birthday"></h2><br>
+            <h2>Corona Vaccine Dose:*</h2>
+            <select name="card_type" id="card_type" required>
+              <h2><option value="">--Select a Vaccine Dose Type--</option></h2>
+              <h2><option value="Dose_Covishild">Covishild</option></h2>
+              <h2><option value="Dose_Covaxin">Covaxin</option></h2>
+            </select>
+            <h2>Gender:</h2><br>
+            <h2><input type="radio" name="gender" value="male">Male</h2><br>
+            <h2><input type="radio" name="gender" value="female">Female</h2><br>
+            <h2><input type="radio" name="gender" value="other">Other</h2><br>
+            <button>Submit</button>
+        </form>
+    </fieldset>
+   
+    
+
+</body>
+</html>
+

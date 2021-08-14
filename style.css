@@ -1,0 +1,144 @@
+body{
+    background-image: url(Data/covid-19-vaccine.jpg);
+    background-size: 1535px 535px ;
+    background-repeat: no-repeat;
+    margin:0px;
+    overflow-x:hidden;
+}
+h1{
+    
+    font-family:'monoton';
+    padding:50px;
+    font-style: italic;
+    text-align: center;
+    font-size: 150px;
+    color:rgba(255, 255, 255, 0.836);
+    transition: all 1s;
+}
+
+h1:hover{
+    color:rgba(0, 119, 255, 0.836);
+}
+.navbar{
+    padding: 0px;
+    overflow:auto;
+    background-color: rgb(19, 21, 48);
+}
+.navbar li{ 
+    float:left;
+    list-style:none;
+    padding: 0px 50px;
+    transition: all 0.50s;
+}
+.navbar li:hover{
+    transform: scale(1.2);
+}
+
+a{
+    font-size: 26px;
+    color:white;
+    text-decoration: none;   
+    font-weight: bold;
+    font-family: 'Black Ops One';
+    transition: all 0.50s;
+}
+
+a:hover{
+    color: rgba(199, 199, 186, 0.753);
+}
+
+
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+.div1{
+    font-style: italic;
+    font-family: Ultra;
+    font-size: 3em;
+    border-bottom: 2px solid rgb(228, 117, 135);
+    border-right: 2px solid rgb(228, 117, 135);
+    width: 400px;
+    text-align: center;
+    box-shadow: 6px 6px 6px #888888;
+    margin-top: 0;
+  }
+.div2{   
+    float:right;
+    margin-top: 110px;
+}
+section{
+    min-height: 200vh;
+}
+
+p{
+    margin-top: 110px;
+    font-size: 30px;
+    color:rgb(10, 10, 10);
+    text-decoration: none;   
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+}
+.div3{
+    float: left;
+    margin-top: 250px;
+}
+.div4{
+    margin-top: 280px;
+    font-size: 30px;
+    color:rgb(10, 10, 10);
+    text-decoration: none;   
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+}
+.div5{
+    margin-top: 160px;
+    float:right;
+    
+}
+.div6{
+    margin-top: 200px;
+    font-size: 30px;
+    color:rgb(10, 10, 10);
+    text-decoration: none;   
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+}
+
+.P_details{
+    color: #ffffff;
+        border: 2px ;
+        border-radius: 12px;
+    background-color: #28203df5;
+    font-family: Rye;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    width: 600px;
+    text-align: center;
+    box-shadow: 6px 6px 6px #888888;
+    margin-top: 0;
+}
+fieldset{
+    background-image: url(Data/corona.jpg);
+    border-style: solid;
+    border-color: rgb(175, 196, 253);
+    border-width: 3px;
+}
+
+button{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(223, 223, 223);
+    background-color: #1e1e29ef;
+    width:70px;
+    height:40px;
+    transition: all 1s;
+}
+
+button:hover{
+  color: rgb(255, 255, 255);
+  background: rgba(107, 15, 15, 0.959);
+  transform:scale(1.2);
+}
